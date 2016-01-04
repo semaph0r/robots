@@ -1,0 +1,5 @@
+<launch>
+
+  <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
+  <node pkg="robot_drive_square" name="square_drive" type="robot_drive_square" output="screen" launch-prefix="gnome-terminal -e" />
+</launch>

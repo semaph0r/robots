@@ -1,0 +1,5 @@
+float32 a
+float32 b
+string operand
+---
+float32 result
